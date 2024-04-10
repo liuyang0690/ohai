@@ -1,7 +1,6 @@
-# Work Instructions for LumenPnP V3.2
+# LumenPnP V3.2版本 组装说明
 
-## Purpose
-The goal of this work instruction is to walk document Opulo's assembly process for a LumenPnP V3.2 all the way through final pack out.
-
-## Next Steps
-To proceed through these instructions, click the **Next** button found on the bottom footer of most pages.
+## 文档目的
+本组装说明的目的是展示LumenPnP V3.2的组装过程。
+## 下一步
+要获取下一步说明说明，请单击大多数页面底部的**下一步**按钮。
