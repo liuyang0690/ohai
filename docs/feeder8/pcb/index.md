@@ -1,78 +1,74 @@
-# PCB Assembly
+# PCB板组装
 
-This section will guide the reader on how to properly assemble and test a `feeder-mobo` for further use in all width `feeder` variants.
+本节将指导读者如何正确组装和测试 `feeder-mobo（飞达主板）` 以便在所有宽度的 `feeder（飞达）` 中作为参考.
 
-## Solder Paste
+## 锡膏和钢网注意事项
 
-1. Inspect the stencil. Make sure all the voids are clear of debris and solder paste.
+1. 检查钢网. 确保所有引脚的开孔中没有碎屑和残留的锡膏.
    
     ![](img/stencil-ng.jpg){: style="height:350px"}
     ![](img/stencil-ok.jpg){: style="height:350px"}
 
-1. If the stencil is not clean, squirt IPA onto the stencil.
+1. 如果钢网不干净, 请对钢网进行清洁（用洗板水）.
 
     ![](img/stencil-ipa.jpg)
 
-1. Use a paper towel to **very lightly** wipe down the stencil. Do **not** apply hard pressure, as it'll cause the stencil to cut the paper towel and cause debris to form.
+1. 用无尘布或纸巾轻轻擦拭. 如使用纸巾擦拭，请不要用力按压擦拭,以免钢网刮破纸巾导致纸屑进入钢网开孔，将影响后续焊接的可靠性 .
 
     ![](img/stencil-cleaning-top.jpg)
     ![](img/stencil-cleaning-bottom.jpg)
 
-2. Grab a new feeder panel.
+2. 拿起一块空的飞达主板PCB.
 
     ![](img/panel.jpg)
 
-3. Insert the panel into the jig.
+3. 确保PCB板被稳妥的固定.
 
     ![](img/panel-in-jig.jpg)
 
-4. Check to make sure that the stencil is aligned with the pads on the panel.
+4. 确保钢网上的开孔与PCB板上的焊盘对应且对齐.
 
     ![](img/stencil-aligned.jpg)
 
-5. Grab the jar of **FRESH** Loctite GC10 solder paste.
+5. 拿起锡膏（鬼佬的教程好详细。。。）.
 
     ![](img/loctite-gc10.jpg)
 
-6. Remove the plug from the jar.
+6. 打开盖子.
 
     ![](img/paste-plug.jpg)
     ![](img/paste-plug-removed.jpg)
 
-7. Remove some paste from the jar with the paddle, and spread it along the top of the stencil.
+7. 取出适量的锡膏，涂抹在刚网上.
 
     ![](img/applying-paste.jpg)
 
-8. IMMEDIATELY replace the plug.
+8. 盖好锡膏的盖子.
 
     ![](img/plug-reinserted.jpg)
 
-9. Grab the squeegee tool.
+9. 拿起刮刀.
 
     ![](img/squeegee.jpg)
 
-10. Align the squeegee on the stencil so that the **boltheads are facing up**.
 
-    ![](img/boltheads-up.jpg)
-    ![](img/about-to-squeegee.jpg)
-
-11. Squeegee paste across the panel. **Apply plenty of force**. Make sure you use the correct angle. An angle too high will result in not enough paste, and an angle too low will result in too much.
+10. 施加足够的力。确保使用正确的角度。角度过高会导致引脚锡膏不足，角度过低会导致锡膏过多。.
 
     ![](img/correct-angle.jpg)
     ![](img/angle-high.jpg)
     ![](img/angle-low.jpg)
     ![](img/angle-range-results.jpg)
 
-12. With a high angle, scrape up any remaining paste on the top of the stencil. Do this once in the Y axis, and twice in the X axis, covering the whole panel.
+12. 刮掉钢网上多余的锡膏。.
 
     ![](img/scrape-y.jpg)
     ![](img/scrape-x.jpg)
 
-13. Lift the stencil away from the board in a smooth motion. **Do NOT bring the stencil back onto the PCB after lifting**.
+13. 轻缓的移除钢网，移除后不要再次覆盖回去，以免破坏PCB上的锡膏.
 
     ![](img/lift-stencil.jpg)
 
-14. Inspect the paste. Make sure that there is a sufficient gap between pads. If the paste is heavily bridging, wipe off the paste and redo the process.
+14. 检查刮好锡膏的PCB板. 确保引脚有锡膏且引脚间锡膏有一定间距. 如果引脚间锡膏桥接严重, 请擦除PCB上的锡膏重新涂抹锡膏.
 
     ![](img/paste-ok.jpg)
     ![](img/paste-ng.jpg)
